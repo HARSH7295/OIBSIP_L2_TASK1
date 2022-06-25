@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(64, 75, 152);
+}
+.container{
+    text-align: center;
+    margin-top:20px
+}
+
+table{
+    margin: auto;
+    width:100%;
+}
+h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+#equalto:hover{
+    background-color: brown;
+    color:white;
+}
+.oper{
+    background-color: rgb(128, 128, 235);
+}
+.oper:hover{
+    background-color: rgb(70, 70, 209);
+    color: white;
+}
+input{
+    border-radius: 0.7rem;
+    background: rgb(190, 190, 230);
+    border: 1px solid rgb(190, 190, 230);
+    font-size:35px;
+    height: 150px;
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 0.5rem;
+    font-size: 40px;
+    border: 1px solid rgb(188, 188, 240);
+    background:rgb(188, 188, 240);
+    width: 80px;
+    height: 80px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightgreen;
+}
+.calculator{ 
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 0.7rem;
+    display: inline-block;
+    
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
